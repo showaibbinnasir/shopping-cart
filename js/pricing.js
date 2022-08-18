@@ -31,5 +31,8 @@ document.getElementById('minus').addEventListener('click', function(){
 
     totalPrice.innerText = totalPriceAmount-494;
     const totalDiscount = document.getElementById('discount-price');
+    const totalDiscountString = totalDiscount.innerText;
+    const totalDiscountPrice = parseFloat(totalDiscountString);
+    totalDiscount.innerText = totalDiscountPrice - 345.8;
     
 })
