@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daraz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/dd69725f17.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <section class="container">
+            <div class="headerPart d-flex justify-content-between align-items-center">
+                <div class="mainLogo">
+                    <h1 class="fw-bold">Daraz</h1>
+                </div>
+                <div class="inputfield">
+                    <input class="inputArea" type="text">
+                    <button class="searchBtn">search</button>
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping fs-1"></i>
+                </div>
+            </div>
+            
+        </section>
+        <div class="banner">
+            <img class="w-100" src="images/Untitled-1-01.jpg" alt="">
+        </div>
+    </header>
+    <br>
+    <main>
+        <h1 class="text-center">Your cart</h1>
+        <section class="container"> 
+            <div class="products d-flex justify-content-center align-items-center">
+                <div class="Cartimage">
+                    <img src="images/bag-1.png" class="w-50" alt="">
+                </div>
+                <div class="details">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <h1>Price : $<span class="bag-price">494</span></h1>
+                    <div class="quantity d-flex align-items-center">
+                        <i id="plus" class="fa-solid fa-plus"></i>
+                        <p id="quantities" class="quantitys">0</p>
+                        <i id="minus" class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="procceed d-flex flex-column align-items-center">
+                <h2>Your products price : $<span id="total-price">00</span></h2>
+                <h3>Discount price : $<span id="discount-price">00</span></h3>
+                <button class="btn btn-warning">Buy Now</button>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/pricing.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

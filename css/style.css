@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #eff0f5;
+    font-family: 'Poppins', sans-serif;
+}
+.mainLogo h1{
+    color: orange;
+}
+
+.searchBtn{
+    border: none;
+    background-color: orange;
+    padding: 5px 20px;
+}
+
+.inputArea{
+    border: none;
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 20rem;
+}
+.banner img{
+    height: 30vh;
+}
+
+.Cartimage{
+    display: flex;
+    
+    width:100%;
+}
+.quantitys{
+    background-color: gray;
+    padding: 10px 25px; 
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 668px){
+    .inputArea{
+        padding: 3px;
+        width: 10rem;
+    }
+    .searchBtn{
+        padding: 3px 10px;
+    }
+    .banner img{
+        height: 15vh;
+    }
+}
